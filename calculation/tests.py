@@ -6,6 +6,10 @@ class CalculationTest(TestCase):
 		print('- Test sum')
 		self.assertEqual(1 + 1, 2)
 
+	def test_sum2(self):
+		print('- Test sum 2')
+		self.assertEqual(2 + 2, 4)
+
 	def test_substract(self):
 		print('- Test substract')
 		self.assertEqual(1 - 1, 0)
